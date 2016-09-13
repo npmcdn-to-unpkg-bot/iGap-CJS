@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="iGap" lang='en_US'>
+<head>
+    <!--[if lte IE 9]>
+    <meta HTTP-EQUIV="REFRESH" content="0; url=badbrowser.html">
+    <![endif]-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>iGap Web</title>
+
+    <!-- <favicon> -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+</head>
+<body>
+<div id="warper" ng-controller="AppController" ng-view></div>
+<!--<script type="text/javascript" data-main="scripts/main.js" src="scripts/vendor/require.js"></script>-->
+<script type="text/javascript" src="scripts/vendor/jquery/jquery.min.js"></script>
+<script src="scripts/vendor/protobuf/Long.min.js"></script>
+<!-- https://raw.github.com/dcodeIO/Long.js/master/dist/Long.min.js -->
+<script src="scripts/vendor/protobuf/bytebuffer.min.js"></script>
+<!-- https://raw.github.com/dcodeIO/ByteBuffer.js/master/dist/ByteBufferAB.min.js -->
+<script src="scripts/vendor/protobuf/protobuf.js"></script>
+<!-- https://raw.github.com/dcodeIO/ProtoBuf.js/master/dist/ProtoBuf.min.js -->
+
+<script type="text/javascript" src="scripts/app/config/config.js"></script>
+<script type="text/javascript" src="scripts/app/init.js"></script>
+
+<script type="text/javascript" src="scripts/vendor/angular/angular.v1.5.8.js"></script>
+<script type="text/javascript" src="scripts/vendor/angular/angular-route.js"></script>
+<script type="text/javascript" src="scripts/vendor/angular/angular-animate.js"></script>
+<script type="text/javascript" src="scripts/vendor/angular/angular-sanitize.js"></script>
+<script type="text/javascript" src="scripts/vendor/angular/angular-touch.js"></script>
+<script type="text/javascript" src="scripts/vendor/angular/angular-websocket.js"></script>
+
+<!--Encryption-->
+<script type="text/javascript" src="scripts/vendor/jsencrypt/bin/jsencrypt.js"></script>
+<!--<script type="text/javascript" src="scripts/vendor/jsbn/jsbn_combined.js"></script>-->
+<script type="text/javascript" src="scripts/vendor/cryptoJS/crypto.js"></script>
+<script type="text/javascript" src="scripts/vendor/forge/js/forge.min.js"></script>
+<script type="text/javascript" src="scripts/vendor/js-xss/dist/xss.min.js"></script>
+
+<script type="text/javascript" src="scripts/app/services/i18n.js"></script>
+<script type="text/javascript" src="scripts/app/services/router.js"></script>
+<script type="text/javascript" src="scripts/app/services/filters.js"></script>
+<script type="text/javascript" src="scripts/app/services/services.js"></script>
+<script type="text/javascript" src="scripts/app/services/directives.js"></script>
+<script type="text/javascript" src="scripts/app/services/factories.js"></script>
+<script type="text/javascript" src="scripts/app/services/controllers.js"></script>
+<script type="text/javascript" src="scripts/app/app.js"></script>
+
+<script type="text/javascript" src="scripts/app/services/utils.js"></script>
+
+</body>
